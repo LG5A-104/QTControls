@@ -1,0 +1,12 @@
+INPUT(
+./temp\obj\main.o
+./temp\obj\frmmain.o
+./temp\obj\frminput.o
+./temp\obj\frmnum.o
+./temp\obj\dialog.o
+./temp\obj\moc_frmmain.o
+./temp\obj\moc_frminput.o
+./temp\obj\moc_frmnum.o
+./temp\obj\moc_dialog.o
+./temp\obj\qrc_resource.o
+);
