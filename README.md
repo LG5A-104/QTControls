@@ -6,7 +6,7 @@
 * loginWidget
 * qtSoftKeyboard
 
-## loninWidget
+## loginWidget
 登入对话框:<br>
 <br>
 ![image](https://github.com/LG5A-104/QTControls/blob/master/login/loginWidget.png)
