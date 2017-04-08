@@ -6,7 +6,27 @@
 * login
 * inputTool
 
+## flatui
+扁平化界面:<br> 
+<br> 
+![image](https://github.com/LG5A-104/QTControls/blob/master/flatui/flatui.png)
+
+## imageclock
+图片时钟：<br>
+<br>
+![image](https://github.com/LG5A-104/QTControls/blob/master/imageclock/image.png)
+
 ## login
 登入对话框:<br>
 <br>
 ![image](https://github.com/LG5A-104/QTControls/blob/master/login/loginWidget.png)
+
+## progressbarpercent
+百分比进度条：<br>
+<br>
+![image](https://github.com/LG5A-104/QTControls/blob/master/progressbarpercent/progerssbar.png)
+
+## inputtools
+虚拟键盘：<br>
+<br>
+![iamge](https://github.com/LG5A-104/QTControls/blob/master/InputTool/input.png)
