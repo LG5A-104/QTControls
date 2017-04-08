@@ -10,7 +10,6 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET      = imageclock
 TEMPLATE    = app
-DESTDIR     = $$PWD/../bin
 
 SOURCES += main.cpp\
         frmimageclock.cpp \
