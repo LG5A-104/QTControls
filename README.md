@@ -5,6 +5,7 @@
 * progerssBarpercent
 * login
 * inputTool
+* screenshot
 
 ## flatui
 扁平化界面:<br> 
@@ -30,3 +31,8 @@
 虚拟键盘：<br>
 <br>
 ![iamge](https://github.com/LG5A-104/QTControls/blob/master/InputTool/input.png)
+
+## screenshot
+屏幕截图：<br>
+<br>
+![iamge](https://github.com/LG5A-104/QTControls/blob/master/screenshot/screenshot.png)
