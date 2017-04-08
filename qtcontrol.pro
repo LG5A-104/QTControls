@@ -8,4 +8,5 @@ SUBDIRS += \
            login \
            progressbarpercent \
            inputTool \
+           screenshot \
           
