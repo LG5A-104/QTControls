@@ -6,6 +6,7 @@
 * login
 * inputTool
 * screenshot
+* uimodel
 
 ## flatui
 扁平化界面:<br> 
@@ -36,3 +37,8 @@
 屏幕截图：<br>
 <br>
 ![iamge](https://github.com/LG5A-104/QTControls/blob/master/screenshot/screenshot.png)
+
+## uimodel
+ui基础框架搭建：<br>
+<br>
+![image](https://github.com/LG5A-104/QTControls/blob/master/uimodel/uimodle.png)
