@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmMain</class>
+ <widget class="QDialog" name="frmMain">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>663</width>
+    <height>543</height>
+   </rect>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="margin">
+    <number>1</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget_title" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>28</height>
+      </size>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="lab_Ico">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>30</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lab_Title">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>杭州伏达光电技术有限公司</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_menu" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="margin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="btnMenu_Min">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>40</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="toolTip">
+            <string>最小化</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnMenu_Max">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>40</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="toolTip">
+            <string>最大化</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnMenu_Close">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>40</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="toolTip">
+            <string>关闭</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget_main" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_9">
+      <item>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>风格样式</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="cboxStyle">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="spinBox"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnChangeStyle">
+           <property name="minimumSize">
+            <size>
+             <width>90</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>主窗体</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QLineEdit" name="lineEdit">
+             <property name="text">
+              <string>今天天气不错</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton">
+             <property name="minimumSize">
+              <size>
+               <width>90</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="text">
+              <string>信息框</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="minimumSize">
+              <size>
+               <width>90</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="text">
+              <string>询问框</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="minimumSize">
+              <size>
+               <width>90</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="text">
+              <string>错误框</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_5">
+             <property name="minimumSize">
+              <size>
+               <width>90</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="text">
+              <string>输入框</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <widget class="QRadioButton" name="radioButton">
+             <property name="text">
+              <string>男</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="radioButton_2">
+             <property name="text">
+              <string>女</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox">
+             <property name="text">
+              <string>中国</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_2">
+             <property name="text">
+              <string>美国</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="comboBox">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="editable">
+              <bool>true</bool>
+             </property>
+             <item>
+              <property name="text">
+               <string>测试项目1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>测试项目2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>测试项目3</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTimeEdit" name="timeEdit">
+             <property name="calendarPopup">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_4">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>90</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>不可用按钮</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_7">
+           <item>
+            <widget class="QDateEdit" name="dateEdit">
+             <property name="calendarPopup">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDateTimeEdit" name="dateTimeEdit_2"/>
+           </item>
+           <item>
+            <widget class="QDateEdit" name="dateEdit_2">
+             <property name="calendarPopup">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDateTimeEdit" name="dateTimeEdit">
+             <property name="calendarPopup">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="progressBar">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="minimum">
+            <number>0</number>
+           </property>
+           <property name="maximum">
+            <number>0</number>
+           </property>
+           <property name="value">
+            <number>-1</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSlider" name="horizontalSlider">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QScrollBar" name="horizontalScrollBar">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="tab">
+         <attribute name="title">
+          <string>选项卡1</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QTreeWidget" name="treeWidget">
+            <column>
+             <property name="text">
+              <string>学号</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>成绩</string>
+             </property>
+            </column>
+            <item>
+             <property name="text">
+              <string>061104023</string>
+             </property>
+             <property name="text">
+              <string>105</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>061104056</string>
+             </property>
+             <property name="text">
+              <string>245</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>061104065</string>
+             </property>
+             <property name="text">
+              <string>265</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_2">
+         <attribute name="title">
+          <string>选项卡2</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QTableWidget" name="tableWidget">
+            <property name="selectionBehavior">
+             <enum>QAbstractItemView::SelectRows</enum>
+            </property>
+            <row>
+             <property name="text">
+              <string>1</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>2</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>3</string>
+             </property>
+            </row>
+            <column>
+             <property name="text">
+              <string>学号</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>成绩</string>
+             </property>
+            </column>
+            <item row="0" column="0">
+             <property name="text">
+              <string>061104023</string>
+             </property>
+            </item>
+            <item row="0" column="1">
+             <property name="text">
+              <string>105</string>
+             </property>
+            </item>
+            <item row="1" column="0">
+             <property name="text">
+              <string>061104025</string>
+             </property>
+            </item>
+            <item row="1" column="1">
+             <property name="text">
+              <string>108</string>
+             </property>
+            </item>
+            <item row="2" column="0">
+             <property name="text">
+              <string>061104056</string>
+             </property>
+            </item>
+            <item row="2" column="1">
+             <property name="text">
+              <string>235</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_3">
+         <attribute name="title">
+          <string>选项卡3</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QToolBox" name="toolBox">
+            <property name="currentIndex">
+             <number>1</number>
+            </property>
+            <widget class="QWidget" name="page">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>98</width>
+               <height>28</height>
+              </rect>
+             </property>
+             <attribute name="label">
+              <string>学生信息管理</string>
+             </attribute>
+            </widget>
+            <widget class="QWidget" name="page_2">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>619</width>
+               <height>167</height>
+              </rect>
+             </property>
+             <attribute name="label">
+              <string>教师信息管理</string>
+             </attribute>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_4">
+         <attribute name="title">
+          <string>选项卡4</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <widget class="QTextEdit" name="textEdit">
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'宋体';&quot;&gt;1.假如你想要一件东西，就放它走。它若能回来找你，就永远属于你；它若不回来，那根本就不是你的。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'宋体';&quot;&gt;2.一个人会落泪，是因为痛；一个人之所以痛，是因为在乎；一个人之所以在乎，是因为有感觉；一个人之所以有感觉，仅因为你是一个人！所以，你有感觉，在乎，痛过，落泪了，说明你是完整不能再完整的一个人。难过的时候，原谅自己，只不过是一个人而已，没有必要把自己看的这么坚不可摧。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'宋体';&quot;&gt;3.如果真的有一天，某个回不来的人消失了，某个离不开的人离开了，也没关系。时间会把最正确的人带到你的身边，在此之前，你所要做的，是好好的照顾自己。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'宋体';&quot;&gt;4.你可以沉默不语，不管我的着急；你可以不回信息，不顾我的焦虑；你可以将我的关心，说成让你烦躁的原因；你可以把我的思念，丢在角落不屑一顾。你可以对着其他人微笑，你可以给别人拥抱，你可以对全世界好，却忘了我一直的伤心。------ 你不过是仗着我喜欢你，而那，却是唯一让我变得卑微的原因。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'宋体';&quot;&gt;5.生命中有一些人与我们擦肩了，却来不及遇见；遇见了，却来不及相识；相识了，却来不及熟悉；熟悉了，却还是要说再见。------ 对自己好点，因为一辈子不长；对身边的人好点，因为下辈子不一定能遇见。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'宋体';&quot;&gt;6.0岁出场，10岁成长，20岁彷徨，30岁定向，40岁打拼，50岁回望，60岁告老，70岁搓麻，80岁晒太阳，90岁躺床上，100岁挂墙上。生的伟大，死的凄凉，能牵手的时候，请别肩并肩，能拥抱的时候，请别手牵手，能相爱的时候，请别说分开。一生就这么短暂而已。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'宋体';&quot;&gt;7.时候，希望自己快点长大，长大了，却发现遗失了童年；单身时，开始羡慕恋人的甜蜜，恋爱时，怀念单身时的自由。——— 很多事物，没有得到时总觉得美好，得到之后才开始明白：“我们得到的同时也在失去。”&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'宋体';&quot;&gt;8.面对， 不一定最难过。 孤独， 不一定不快乐。 得到， 不一定能长久。 失去， 不一定不再拥有。 不要因为寂寞而错爱， 不要因為错爱而寂寞一生。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_5">
+         <attribute name="title">
+          <string>选项卡5</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <widget class="QTextBrowser" name="textBrowser">
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'宋体';&quot;&gt;1.假如你想要一件东西，就放它走。它若能回来找你，就永远属于你；它若不回来，那根本就不是你的。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'宋体';&quot;&gt;2.一个人会落泪，是因为痛；一个人之所以痛，是因为在乎；一个人之所以在乎，是因为有感觉；一个人之所以有感觉，仅因为你是一个人！所以，你有感觉，在乎，痛过，落泪了，说明你是完整不能再完整的一个人。难过的时候，原谅自己，只不过是一个人而已，没有必要把自己看的这么坚不可摧。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'宋体';&quot;&gt;3.如果真的有一天，某个回不来的人消失了，某个离不开的人离开了，也没关系。时间会把最正确的人带到你的身边，在此之前，你所要做的，是好好的照顾自己。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'宋体';&quot;&gt;4.你可以沉默不语，不管我的着急；你可以不回信息，不顾我的焦虑；你可以将我的关心，说成让你烦躁的原因；你可以把我的思念，丢在角落不屑一顾。你可以对着其他人微笑，你可以给别人拥抱，你可以对全世界好，却忘了我一直的伤心。------ 你不过是仗着我喜欢你，而那，却是唯一让我变得卑微的原因。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'宋体';&quot;&gt;5.生命中有一些人与我们擦肩了，却来不及遇见；遇见了，却来不及相识；相识了，却来不及熟悉；熟悉了，却还是要说再见。------ 对自己好点，因为一辈子不长；对身边的人好点，因为下辈子不一定能遇见。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'宋体';&quot;&gt;6.0岁出场，10岁成长，20岁彷徨，30岁定向，40岁打拼，50岁回望，60岁告老，70岁搓麻，80岁晒太阳，90岁躺床上，100岁挂墙上。生的伟大，死的凄凉，能牵手的时候，请别肩并肩，能拥抱的时候，请别手牵手，能相爱的时候，请别说分开。一生就这么短暂而已。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'宋体';&quot;&gt;7.时候，希望自己快点长大，长大了，却发现遗失了童年；单身时，开始羡慕恋人的甜蜜，恋爱时，怀念单身时的自由。——— 很多事物，没有得到时总觉得美好，得到之后才开始明白：“我们得到的同时也在失去。”&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'宋体';&quot;&gt;8.面对， 不一定最难过。 孤独， 不一定不快乐。 得到， 不一定能长久。 失去， 不一定不再拥有。 不要因为寂寞而错爱， 不要因為错爱而寂寞一生。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_6">
+         <attribute name="title">
+          <string>选项卡6</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <item>
+           <widget class="QFrame" name="frame">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <item>
+              <widget class="QPlainTextEdit" name="plainTextEdit">
+               <property name="plainText">
+                <string>1.假如你想要一件东西，就放它走。它若能回来找你，就永远属于你；它若不回来，那根本就不是你的。
+2.一个人会落泪，是因为痛；一个人之所以痛，是因为在乎；一个人之所以在乎，是因为有感觉；一个人之所以有感觉，仅因为你是一个人！所以，你有感觉，在乎，痛过，落泪了，说明你是完整不能再完整的一个人。难过的时候，原谅自己，只不过是一个人而已，没有必要把自己看的这么坚不可摧。
+3.如果真的有一天，某个回不来的人消失了，某个离不开的人离开了，也没关系。时间会把最正确的人带到你的身边，在此之前，你所要做的，是好好的照顾自己。
+4.你可以沉默不语，不管我的着急；你可以不回信息，不顾我的焦虑；你可以将我的关心，说成让你烦躁的原因；你可以把我的思念，丢在角落不屑一顾。你可以对着其他人微笑，你可以给别人拥抱，你可以对全世界好，却忘了我一直的伤心。------ 你不过是仗着我喜欢你，而那，却是唯一让我变得卑微的原因。
+5.生命中有一些人与我们擦肩了，却来不及遇见；遇见了，却来不及相识；相识了，却来不及熟悉；熟悉了，却还是要说再见。------ 对自己好点，因为一辈子不长；对身边的人好点，因为下辈子不一定能遇见。
+6.0岁出场，10岁成长，20岁彷徨，30岁定向，40岁打拼，50岁回望，60岁告老，70岁搓麻，80岁晒太阳，90岁躺床上，100岁挂墙上。生的伟大，死的凄凉，能牵手的时候，请别肩并肩，能拥抱的时候，请别手牵手，能相爱的时候，请别说分开。一生就这么短暂而已。
+7.时候，希望自己快点长大，长大了，却发现遗失了童年；单身时，开始羡慕恋人的甜蜜，恋爱时，怀念单身时的自由。——— 很多事物，没有得到时总觉得美好，得到之后才开始明白：“我们得到的同时也在失去。”
+8.面对， 不一定最难过。 孤独， 不一定不快乐。 得到， 不一定能长久。 失去， 不一定不再拥有。 不要因为寂寞而错爱， 不要因為错爱而寂寞一生。</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

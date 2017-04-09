@@ -9,4 +9,5 @@ SUBDIRS += \
            progressbarpercent \
            inputTool \
            screenshot \
+           uimodel \
           
