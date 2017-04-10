@@ -7,6 +7,7 @@
 * inputTool
 * screenshot
 * uimodel
+* GMSModel
 
 ## flatui
 扁平化界面:<br> 
@@ -42,3 +43,9 @@
 ui基础框架搭建：<br>
 <br>
 ![image](https://github.com/LG5A-104/QTControls/blob/master/uimodel/uimodle.png)
+
+## GMSModel
+ui基础框架：<br>
+<br>
+![image](https://github.com/LG5A-104/QTControls/blob/master/GMSModel/GASModel/GASModel.png)
+
