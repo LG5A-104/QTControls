@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmConfig</class>
+ <widget class="QWidget" name="frmConfig">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1029</width>
+    <height>665</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget_left" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>90</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="btnConfig">
+        <property name="text">
+         <string>系统设置</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="pageConfig">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="gboxBase">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>450</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="title">
+          <string>基本配置</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="2" column="5">
+           <widget class="QLineEdit" name="txtIPCNormalSavePath"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labIPCNormalSave">
+            <property name="text">
+             <string>实时存储</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="5">
+           <widget class="QComboBox" name="cboxWorkMode"/>
+          </item>
+          <item row="8" column="4">
+           <widget class="QLabel" name="labStyleName">
+            <property name="text">
+             <string>界面样式</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="3">
+           <widget class="SwitchButton" name="btnUseDragAlarm">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <widget class="SwitchButton" name="btnSaveLog">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="labDeviceColumn">
+            <property name="text">
+             <string>设备列数</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QComboBox" name="cboxPlayCount"/>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="labPlayCount">
+            <property name="text">
+             <string>播放次数</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="3">
+           <widget class="SwitchButton" name="btnListenAlarm">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="4">
+           <widget class="QLabel" name="labWorkMode">
+            <property name="text">
+             <string>工作模式</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="2">
+           <widget class="QLabel" name="labListenAlarm">
+            <property name="text">
+             <string>告警监听</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="labSaveLog">
+            <property name="text">
+             <string>调试日志</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="2">
+           <widget class="QLabel" name="labUsePwd">
+            <property name="text">
+             <string>密码校验</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="3">
+           <widget class="SwitchButton" name="btnDebugOut">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="QLabel" name="labAuthor">
+            <property name="text">
+             <string>版权所有</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0">
+           <widget class="QLabel" name="labAutoLogin">
+            <property name="text">
+             <string>自动登录</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3" colspan="3">
+           <widget class="QLineEdit" name="txtTitle"/>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="labUseInput">
+            <property name="text">
+             <string>输入法</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="1">
+           <widget class="SwitchButton" name="btnAutoLogin">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QComboBox" name="cboxDeviceColumn"/>
+          </item>
+          <item row="2" column="1">
+           <widget class="SwitchButton" name="btnIPCNormalSave">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="QComboBox" name="cboxMsgCount"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="SwitchButton" name="btnPlayAlarmSound">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="5">
+           <widget class="QLineEdit" name="txtAuthor">
+            <property name="readOnly">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="4">
+           <widget class="QLabel" name="labIPCNormalSavePath">
+            <property name="text">
+             <string>存储路径</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labTitle">
+            <property name="text">
+             <string>软件标题</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="4">
+           <widget class="QLabel" name="labIPCAlarmSavePath">
+            <property name="text">
+             <string>存储路径</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="5">
+           <widget class="QComboBox" name="cboxStyleName"/>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="labMsgCount">
+            <property name="text">
+             <string>警情行数</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="2">
+           <widget class="QLabel" name="labDebugOut">
+            <property name="text">
+             <string>调试输出</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="labAutoRun">
+            <property name="text">
+             <string>开机运行</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labPlayAlarmSound">
+            <property name="text">
+             <string>告警声音</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="SwitchButton" name="btnAutoRun">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1">
+           <widget class="SwitchButton" name="btnAlarmChangeColor">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="5">
+           <widget class="QLineEdit" name="txtIPCAlarmSavePath"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="SwitchButton" name="btnUseInput">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="0">
+           <widget class="QLabel" name="labAlarmChangeColor">
+            <property name="text">
+             <string>告警闪烁</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="3">
+           <widget class="SwitchButton" name="btnUsePwd">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="QLabel" name="labUseDragAlarm">
+            <property name="text">
+             <string>攀爬报警</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labIPCAlarmSave">
+            <property name="text">
+             <string>告警存储</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="SwitchButton" name="btnIPCAlarmSave">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="labUseOpenAlarm">
+            <property name="text">
+             <string>开路报警</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="SwitchButton" name="btnUseOpenAlarm">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="3">
+           <widget class="SwitchButton" name="btnUseMissAlarm">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="2">
+           <widget class="QLabel" name="labUseMissAlarm">
+            <property name="text">
+             <string>丢失报警</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="4">
+           <widget class="QLabel" name="labMapLinkType">
+            <property name="text">
+             <string>联动协议</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="5">
+           <widget class="QComboBox" name="cboxMapLinkType"/>
+          </item>
+          <item row="7" column="4">
+           <widget class="QLabel" name="labLogMaxCount">
+            <property name="text">
+             <string>日志记录</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="5">
+           <widget class="QComboBox" name="cboxLogMaxCount"/>
+          </item>
+          <item row="6" column="4">
+           <widget class="QLabel" name="labAlarmLinkType">
+            <property name="text">
+             <string>报警读取</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="5">
+           <widget class="QComboBox" name="cboxAlarmLinkType"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>406</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="gboxSaveConfig">
+         <property name="title">
+          <string>存储管理</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_6">
+          <item row="1" column="5">
+           <widget class="QPushButton" name="btnDeleteDir">
+            <property name="text">
+             <string>删除</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="QComboBox" name="cboxDeleteDir">
+            <item>
+             <property name="text">
+              <string>日志文件</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>告警图像</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>运行图像</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>抓拍图像</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>截图文件</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="btnReadSize">
+            <property name="text">
+             <string>读取容量</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QPushButton" name="btnFormat">
+            <property name="text">
+             <string>格式化</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0" colspan="6">
+           <widget class="DeviceSizeTable" name="tableDeviceSize">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="btnMountDev">
+            <property name="text">
+             <string>挂载</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="btnUmountDev">
+            <property name="text">
+             <string>卸载</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SwitchButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">usercontrol/switchbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>DeviceSizeTable</class>
+   <extends>QTableWidget</extends>
+   <header>usercontrol/devicesizetable.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
