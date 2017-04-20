@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/24px.png</file>
+        <file>images/32px.png</file>
+        <file>images/about48px.png</file>
+        <file>images/excel48.png</file>
+        <file>images/FosDoc.ico</file>
+        <file>images/open482.png</file>
+        <file>images/Pause64.png</file>
+        <file>images/save32px.png</file>
+        <file>images/setting48.png</file>
+        <file>images/start48.png</file>
+        <file>images/stop64.png</file>
+        <file>images/print48px.png</file>
+        <file>images/connect_creating.png</file>
+        <file>images/connect_no.png</file>
+        <file>images/style.qss</file>
+    </qresource>
+</RCC>

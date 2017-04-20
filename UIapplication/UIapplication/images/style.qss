@@ -1,0 +1,43 @@
+/*Qmenu toolbar statusbar Style Sheets*/
+QMenu {
+     background-color: white; /* sets background of the menu 设置整个菜单区域的背景色，我用的是白色：white*/
+     Padding: 1px;/*整个菜单区域的边框粗细、样式、颜色*/
+}
+
+QMenu::item {
+     /* sets background of menu item. set this to something non-transparent
+     if you want menu color and menu item color to be different */
+     background-color: transparent;
+     padding:3px 28px;/*设置菜单项文字上下和左右的内边距，效果就是菜单中的条目左右上下有了间隔*/
+     margin:1px 3px;/*设置菜单项的外边距*/
+     border-bottom:0px solid #DBDBDB;/*为菜单项之间添加横线间隔*/
+ }
+
+QMenu::item:selected { /* when user selects item using mouse or keyboard */
+     background-color: rgb(234, 243, 253);;/*这一句是设置菜单项鼠标经过选中的样式*/
+}
+QMenuBar{
+    background-color: rgb(219,225,242);
+}
+
+QMenuBar::item{
+    background-color: rgb(219,225,242);
+}
+QMenuBar::item:selected { /* when user selects item using mouse or keyboard */
+    background-color: rgb(255, 255, 255);;/*这一句是设置菜单项鼠标经过选中的样式*/
+}
+QToolBar{
+    background-color: rgb(238,238,238);
+    border: 1px solid rgb(219,225,242);
+    Padding: 1px;
+}
+QStatusBar{
+    background-color: rgb(219,225,242);
+    color: rgb(0,255,0);
+}
+
+
+
+
+
+

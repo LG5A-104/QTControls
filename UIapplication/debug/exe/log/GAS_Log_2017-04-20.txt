@@ -1,0 +1,8 @@
+2017-04-20 16:27:46 - [Debug] (frmmain.cpp:9, frmmain::frmmain(QWidget*)): debug logger
+
+2017-04-20 16:28:03 - [Debug] (main.cpp:29, int qMain(int, char**)): debug logger
+
+2017-04-20 16:28:03 - [Debug] (frmmain.cpp:9, frmmain::frmmain(QWidget*)): debug logger
+
+2017-04-20 16:29:02 - [Debug] (main.cpp:29, int qMain(int, char**)): debug logger
+2017-04-20 16:29:02 - [Debug] (frmmain.cpp:9, frmmain::frmmain(QWidget*)): debug logger

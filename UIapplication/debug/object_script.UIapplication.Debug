@@ -1,0 +1,15 @@
+INPUT(
+./debug\main.o
+./debug\frmmain.o
+./debug\titlebar.o
+./debug\mainwindow.o
+./debug\iconhelper.o
+./debug\app.o
+./debug\appinit.o
+./debug\LogHandler.o
+./debug\qrc_source.o
+./debug\moc_frmmain.o
+./debug\moc_titlebar.o
+./debug\moc_mainwindow.o
+./debug\moc_appinit.o
+);

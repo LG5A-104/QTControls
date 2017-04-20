@@ -1,0 +1,15 @@
+INPUT(
+./release\main.o
+./release\frmmain.o
+./release\titlebar.o
+./release\mainwindow.o
+./release\iconhelper.o
+./release\app.o
+./release\appinit.o
+./release\LogHandler.o
+./release\qrc_source.o
+./release\moc_frmmain.o
+./release\moc_titlebar.o
+./release\moc_mainwindow.o
+./release\moc_appinit.o
+);
